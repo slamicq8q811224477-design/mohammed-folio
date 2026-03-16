@@ -46,7 +46,7 @@ const Hero = () => {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_30%,rgba(212,175,55,0.15)_0%,transparent_50%)]" />
       </div>
 
-      <div className="max-w-[1440px] mx-auto px-4 md:px-6 relative z-10">
+      <div className="max-w-[1600px] mx-auto px-4 md:px-6 relative z-10 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
           {/* Text Content */}
           <motion.div

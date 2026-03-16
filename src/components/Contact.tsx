@@ -78,8 +78,8 @@ const Contact = () => {
       <div className="absolute top-0 right-0 -translate-y-1/2 translate-x-1/2 w-[600px] md:w-[1000px] h-[600px] md:h-[1000px] bg-[#D4AF37]/5 rounded-full blur-[150px] opacity-40 -z-10" />
       <div className="absolute bottom-0 left-0 translate-y-1/2 -translate-x-1/2 w-[600px] md:w-[1000px] h-[600px] md:h-[1000px] bg-[#D4AF37]/5 rounded-full blur-[150px] opacity-40 -z-10" />
 
-      <div className="max-w-[1440px] mx-auto px-4 md:px-6">
-        <div className="max-w-[1440px] mx-auto">
+      <div className="max-w-[1600px] mx-auto px-4 md:px-6 w-full">
+        <div className="max-w-[1500px] mx-auto">
           <div className="text-center mb-24 md:mb-40">
             <motion.div 
               initial={{ opacity: 0, y: 10 }}

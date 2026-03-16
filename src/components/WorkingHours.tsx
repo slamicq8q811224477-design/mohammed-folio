@@ -28,7 +28,7 @@ const WorkingHours = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a0a] via-transparent to-[#0a0a0a]" />
       </div>
 
-      <div className="max-w-[1440px] mx-auto px-4 md:px-6 relative z-10">
+      <div className="max-w-[1600px] mx-auto px-4 md:px-6 relative z-10 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="max-w-xl">
             <motion.div 

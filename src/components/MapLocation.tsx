@@ -12,7 +12,7 @@ const MapLocation = () => {
 
   return (
     <section id="location" className="py-24 md:py-32 bg-[#0a0a0a] relative overflow-hidden">
-      <div className="max-w-[1440px] mx-auto px-4 md:px-6">
+      <div className="max-w-[1600px] mx-auto px-4 md:px-6 w-full">
         <div className="flex flex-col items-center text-center mb-16">
           <motion.div 
             initial={{ opacity: 0, y: 10 }}
@@ -53,7 +53,7 @@ const MapLocation = () => {
                 className="block group/addr"
               >
                 <p className="text-xl text-slate-400 font-medium leading-relaxed mb-10 group-hover/addr:text-[#D4AF37] transition-colors duration-300">
-                  {t('location.addressDetail', 'Summit Square | \u1230\u121a\u1275 \u12a0\u12f0\u1263\u1263\u12ed, 2V22+JP8, Addis Ababa')}
+                  {t('location.addressDetail', 'Summit Square | ሰሚት አደባባይ, 2V22+JP8, Addis Ababa')}
                 </p>
               </a>
               

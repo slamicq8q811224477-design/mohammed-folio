@@ -25,9 +25,9 @@ const CameraInfo = () => {
   return (
     <section className="py-24 md:py-40 bg-[#050505] text-white relative overflow-hidden border-t border-white/5">
       {/* Background glow */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-[1440px] aspect-square bg-[#D4AF37]/5 rounded-full blur-[180px] -z-10" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-[1600px] aspect-square bg-[#D4AF37]/5 rounded-full blur-[180px] -z-10" />
       
-      <div className="max-w-[1440px] mx-auto px-4 md:px-6">
+      <div className="max-w-[1600px] mx-auto px-4 md:px-6 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-20 md:gap-32 items-center">
           <div className="lg:col-span-7">
             <motion.div 

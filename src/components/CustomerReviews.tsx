@@ -35,13 +35,13 @@ const CustomerReviews = () => {
 
   return (
     <section id="reviews" className="py-24 md:py-40 bg-[#0a0a0a] relative overflow-hidden">
-      <div className="max-w-[1440px] mx-auto px-4 md:px-6">
+      <div className="max-w-[1600px] mx-auto px-4 md:px-6 w-full">
         <div className="flex flex-col md:flex-row items-center justify-between mb-24 gap-10">
           <div className="text-center md:text-left">
             <motion.div 
               initial={{ opacity: 0, y: 10 }}
               whileInView={{ opacity: 1, y: 0 }}
-              className="flex items-center justify-center md:justify-start gap-2 mb-6"
+              className="flex items-center gap-2 mb-6"
             >
               <Sparkles className="w-5 h-5 text-[#D4AF37]" />
               <span className="text-[#D4AF37] font-black tracking-[0.4em] uppercase text-xs">

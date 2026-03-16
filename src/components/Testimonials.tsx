@@ -17,7 +17,7 @@ const Testimonials = () => {
       {/* Decorative BG */}
       <div className="absolute top-0 right-0 w-1/2 h-full bg-[#D4AF37]/[0.02] -z-10 rounded-l-[20rem]" />
 
-      <div className="max-w-[1440px] mx-auto px-4 md:px-6">
+      <div className="max-w-[1600px] mx-auto px-4 md:px-6 w-full">
         <div className="flex flex-col md:flex-row items-center justify-between mb-24 md:mb-40 gap-16">
           <div className="text-center md:text-left">
             <motion.div 

@@ -53,7 +53,7 @@ const Gallery = () => {
 
   return (
     <section id="gallery" className="py-24 md:py-32 bg-[#050505] relative overflow-hidden">
-      <div className="max-w-[1440px] mx-auto px-4 md:px-6">
+      <div className="max-w-[1600px] mx-auto px-4 md:px-6 w-full">
         <div className="flex flex-col items-center text-center mb-16 md:mb-24">
           <motion.span 
             initial={{ opacity: 0, y: 10 }}
@@ -149,7 +149,7 @@ const Gallery = () => {
                 initial={{ scale: 0.9, opacity: 0, y: 20 }}
                 animate={{ scale: 1, opacity: 1, y: 0 }}
                 exit={{ scale: 0.9, opacity: 0, y: 20 }}
-                className="max-w-[1440px] w-full grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-20 items-center overflow-y-auto max-h-[90vh] lg:overflow-visible"
+                className="max-w-[1500px] w-full grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-20 items-center overflow-y-auto max-h-[90vh] lg:overflow-visible"
                 onClick={(e) => e.stopPropagation()}
               >
                 <div className="aspect-[3/4] rounded-[3.5rem] md:rounded-[5.5rem] overflow-hidden shadow-[0_0_50px_rgba(212,175,55,0.3)] border-4 border-[#D4AF37]/20">

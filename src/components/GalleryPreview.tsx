@@ -16,7 +16,7 @@ const GalleryPreview = () => {
 
   return (
     <section className="py-24 md:py-32 bg-[#0a0a0a] relative">
-      <div className="max-w-[1440px] mx-auto px-4 md:px-6">
+      <div className="max-w-[1600px] mx-auto px-4 md:px-6 w-full">
         <div className="flex flex-col md:flex-row items-end justify-between mb-16 gap-8">
           <div className="max-w-2xl">
             <motion.div 

@@ -19,7 +19,7 @@ const Services = () => {
 
   return (
     <section id="services" className="py-24 md:py-32 bg-[#050505] relative overflow-hidden">
-      <div className="max-w-[1440px] mx-auto px-4 md:px-6 relative">
+      <div className="max-w-[1600px] mx-auto px-4 md:px-6 relative w-full">
         <div className="flex flex-col md:flex-row items-end justify-between mb-24 md:mb-40 gap-16">
           <div className="max-w-4xl">
             <motion.div 

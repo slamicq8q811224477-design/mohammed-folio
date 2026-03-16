@@ -10,8 +10,8 @@ const PassportPage = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-[#050505] text-white pt-24 pb-20">
-      <div className="max-w-[1440px] mx-auto px-4 md:px-6 mb-12">
+    <div className="min-h-screen bg-[#050505] text-white pt-24">
+      <div className="max-w-[1600px] mx-auto px-4 md:px-6 mb-12 w-full">
         <Link to="/" className="inline-flex items-center gap-2 text-[#D4AF37] hover:text-white transition-colors mb-8">
           <ArrowLeft className="w-5 h-5" />
           Back to Home

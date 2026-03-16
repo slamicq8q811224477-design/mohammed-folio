@@ -27,11 +27,11 @@ const Footer = () => {
       {/* Background Decorative Circle */}
       <div className="absolute bottom-0 right-0 w-[600px] h-[600px] bg-[#D4AF37]/5 rounded-full blur-[150px] -z-0 translate-x-1/2 translate-y-1/2" />
 
-      <div className="max-w-[1440px] mx-auto px-4 md:px-6 relative z-10">
+      <div className="max-w-[1600px] mx-auto px-4 md:px-6 relative z-10 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 md:gap-24 mb-24">
           <div className="lg:col-span-5">
             <a href="#home" className="flex items-center gap-5 mb-12 group">
-              <div className="w-16 h-16 md:w-20 md:h-20 rounded-[2rem] bg-gradient-to-br from-[#D4AF37] to-[#C5A028] flex items-center justify-center text-slate-950 shadow-xl shadow-[#D4AF37]/20 group-hover:scale-110 group-hover:rotate-12 transition-all duration-700">
+              <div className="w-16 h-16 md:w-20 md:h-20 rounded-[2rem] bg-gradient-to-br from-[#D4AF37] to-[#C5A028] flex items-center justify-center text-slate-950 shadow-2xl shadow-[#D4AF37]/30 group-hover:scale-110 group-hover:rotate-12 transition-all duration-700">
                 <Camera className="w-8 h-8 md:w-10 md:h-10" />
               </div>
               <div className="flex flex-col">
